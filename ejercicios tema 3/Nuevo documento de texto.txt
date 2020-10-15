@@ -1,0 +1,6 @@
+public class Ejercicio1 {
+public static void main (String[] args){
+System.out.print("Héctor Domínguez Cardona");
+System.out.printn("22/05/2000");
+	}
+}
