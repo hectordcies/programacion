@@ -7,13 +7,13 @@ public class Ejer2 {
         numeroUno = Integer.parseInt(lector.nextLine());
         System.out.println("escribe el segundo numero");
         numeroDos = Integer.parseInt(lector.nextLine());
-        if (numeroUno == numeroDos)
+        if (numeroUno == numeroDos){
             System.out.println(numeroUno + " es igual a " + numeroDos);
-            else if (numeroUno > numeroDos)
+			}else if (numeroUno > numeroDos){
             System.out.println(numeroUno + " es mayor a " + numeroDos);
-            else if (numeroUno < numeroDos)
+            }else if (numeroUno < numeroDos){
             System.out.println(numeroUno + " es menor a " + numeroDos);
-        
+			}
     }
     
 }
